@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "https://najahfamilychildcare.com/img5.jpg",
+        url: "https://najahfamilychildcare.com/img3.jpg",
         width: 500,
         height: 500,
         alt: "Najah Family Childcare",
