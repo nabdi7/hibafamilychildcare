@@ -1,44 +1,66 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { siteConfig } from "@/config/site";
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
-
 export const metadata: Metadata = {
-  title: "Najah Family Childcare",
+  title: {
+    default: "Najah Family Childcare | Licensed Childcare Center in Seattle WA and White Center",
+    template: "%s | Najah Family Childcare"
+  },
   description:
-    "A family daycare that provides a safe, nurturing, and educational environment for children.",
-  keywords:
-    "childcare, daycare, preschool, early childhood education, Najah Family Childcare",
+    "Licensed family childcare center in Seattle WA and White Center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs, experienced caregivers, and a nurturing home-based learning environment.",
+  keywords: [
+    "childcare",
+    "daycare",
+    "family childcare",
+    "early childhood education",
+    "preschool",
+    "infant care",
+    "toddler care",
+    "[Your City] childcare",
+    "licensed daycare",
+    "home-based childcare"
+  ],
   metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? siteConfig.url),
+  authors: [
+    {
+      name: "Najah Family Childcare",
+      url: "https://najahfamilychildcare.com",
+    }
+  ],
+  creator: "Najah Family Childcare",
+  publisher: "Najah Family Childcare",
+  formatDetection: {
+    email: true,
+    address: true,
+    telephone: true,
+  },
   openGraph: {
-    title: "Najah Family Childcare",
+    title: "Najah Family Childcare | Licensed Childcare Center in Seattle WA and White Center",
     description:
-      "A family daycare that provides a safe, nurturing, and educational environment for children.",
+      "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs in a nurturing home-based environment.",
     type: "website",
     siteName: "Najah Family Childcare",
     url: "https://najahfamilychildcare.com",
-
+    locale: "en_US",
     images: [
       {
-        url: "https://najahfamilychildcare.com/img3.jpg",
+        url: "https://najahfamilychildcare.com/img8.jpg",
         width: 500,
         height: 500,
-        alt: "Najah Family Childcare",
+        alt: "Najah Family Childcare - Quality childcare and early education center",
+        type: "image/jpeg",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Najah Family Childcare | Licensed Childcare Center in Seattle WA and White Center",
+    description: 
+      "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs.",
+    images: ["https://najahfamilychildcare.com/img8.jpg"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -46,6 +68,20 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: `/site.webmanifest`,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  // verification: {
+  //   google: "", 
+  // },
 };
 
 export default function RootLayout({
