@@ -17,13 +17,13 @@ export const programs: Program[] = [
   },
   {
     icon: <Users className="w-8 h-8 text-green-600" />,
-    title: "Preschoolers",
+    title: "Preschool Age",
     age: "Ages 3-4",
     description: "Social playtime, fun activities, and friendly interaction with other children.",
   },
   {
     icon: <Star className="w-8 h-8 text-green-600" />,
-    title: "Pre-K",
+    title: "Pre-K Age",
     age: "Ages 4-5",
     description: "Engaging activities, storytime, and creative play throughout the day.",
   },

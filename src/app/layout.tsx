@@ -6,11 +6,11 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: {
-    default: "Najah Family Childcare | Licensed Childcare Center in Seattle WA and White Center",
+    default: "Najah Family Childcare | Licensed Family Childcare in Seattle WA",
     template: "%s | Najah Family Childcare"
   },
   description:
-    "Licensed family childcare center in Seattle WA and White Center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs, experienced caregivers, and a nurturing home-based learning environment.",
+    "Licensed family childcare in Seattle WA providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs, experienced caregivers, and a nurturing home-based learning environment.",
   keywords: [
     "childcare",
     "daycare",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "preschool",
     "infant care",
     "toddler care",
-    "[Your City] childcare",
+    "seattle childcare",
     "licensed daycare",
     "home-based childcare"
   ],
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     telephone: true,
   },
   openGraph: {
-    title: "Najah Family Childcare | Licensed Childcare Center in Seattle WA and White Center",
+    title: "Najah Family Childcare | Licensed Family Childcare Center in Seattle WA",
     description:
       "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs in a nurturing home-based environment.",
     type: "website",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Najah Family Childcare | Licensed Childcare Center in Seattle WA and White Center",
+    title: "Najah Family Childcare | Licensed Childcare Center in Seattle WA",
     description: 
       "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs.",
     images: ["https://najahfamilychildcare.com/img8.jpg"],
