@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Sun } from "lucide-react";
+import { TreePine } from "lucide-react";
 import Menu from "../menu/Menu";
 import Link from "next/link";
 
@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <Sun className="w-8 h-8 text-green-600" />
+            <TreePine className="w-8 h-8 text-green-600" strokeWidth={1.5} />
             <Link href="/" className="text-xl font-bold text-green-600">
               Najah Family Childcare
             </Link>

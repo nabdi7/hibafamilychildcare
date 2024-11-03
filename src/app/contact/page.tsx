@@ -3,8 +3,8 @@ import Contact from '@/components/contact/Contact';
 
 
 export const metadata = {
-  title: "About Us | Najah Family Childcare",
-  description: "Learn more about Najah Family Childcare, a family daycare that provides a safe, nurturing, and educational environment for children",
+  title: "Contact Us | Najah Family Childcare",
+  description: "Get in touch with Najah Family Childcare to learn more about our programs and enrollment process. Schedule a tour of our facility today!",
 };
 
 const page = () => {

@@ -39,13 +39,6 @@ const Menu = () => {
           {/* Navigation Links */}
           <nav className="flex flex-col gap-4 p-6">
             <Link
-              href="/programs"
-              className="text-gray-600 hover:text-green-600 transition px-4 py-2 rounded-lg hover:bg-green-50"
-              onClick={() => setIsOpen(false)}
-            >
-              Programs
-            </Link>
-            <Link
               href="/about"
               className="text-gray-600 hover:text-green-600 transition px-4 py-2 rounded-lg hover:bg-green-50"
               onClick={() => setIsOpen(false)}
@@ -53,11 +46,32 @@ const Menu = () => {
               About Us
             </Link>
             <Link
+              href="/programs"
+              className="text-gray-600 hover:text-green-600 transition px-4 py-2 rounded-lg hover:bg-green-50"
+              onClick={() => setIsOpen(false)}
+            >
+              Programs
+            </Link>
+            <Link
+              href="/gallery"
+              className="text-gray-600 hover:text-green-600 transition px-4 py-2 rounded-lg hover:bg-green-50"
+              onClick={() => setIsOpen(false)}
+            >
+              Our Gallery
+            </Link>
+            <Link
+              href="/testimonials"
+              className="text-gray-600 hover:text-green-600 transition px-4 py-2 rounded-lg hover:bg-green-50"
+              onClick={() => setIsOpen(false)}
+            >
+              Testimonials
+            </Link>
+            <Link
               href="/contact"
               className="text-gray-600 hover:text-green-600 transition px-4 py-2 rounded-lg hover:bg-green-50"
               onClick={() => setIsOpen(false)}
             >
-              Contact
+              Contact Us
             </Link>
             <Link
               href="/contact"

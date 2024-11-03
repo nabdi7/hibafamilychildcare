@@ -1,85 +1,111 @@
-import React from 'react';
-import { BookOpen, Music, Palette, Brain, Clock, Users, Star, Heart } from 'lucide-react';
+import React from "react";
+import {
+  Baby,
+  Users,
+  Star,
+  Sun,
+  Clock,
+  Moon,
+  Sunrise,
+  Sunset,
+} from "lucide-react";
 
 const ProgramsPage = () => {
   const programs = [
     {
-      icon: <BookOpen className="w-12 h-12 text-green-600" />,
-      title: "Early Learning",
-      age: "Ages 2-3",
-      description: "Foundation learning through play, stories, and basic concepts.",
+      icon: <Baby className="w-8 h-8 text-green-600" />,
+      title: "Infants & Toddlers",
+      age: "Ages 12-36 months",
+      description:
+        "Nurturing care in a safe, loving environment with personalized attention.",
       features: [
-        "Basic language development",
-        "Motor skills activities",
-        "Social interaction",
-        "Sensory play",
-      ]
+        "Diaper changes & hygiene care",
+        "Supervised playtime",
+        "Nap schedules",
+        "Daily updates to parents",
+      ],
     },
     {
-      icon: <Music className="w-12 h-12 text-green-600" />,
-      title: "Creative Arts",
+      icon: <Users className="w-8 h-8 text-green-600" />,
+      title: "Preschool Age",
       age: "Ages 3-4",
-      description: "Music, movement, and artistic expression for holistic development.",
+      description:
+        "Active care with plenty of fun activities and social interaction.",
       features: [
-        "Music and movement",
-        "Arts and crafts",
-        "Dramatic play",
-        "Creative expression",
-      ]
+        "Group playtime",
+        "Outdoor activities",
+        "Snacks & meals",
+        "Rest periods",
+      ],
     },
     {
-      icon: <Palette className="w-12 h-12 text-green-600" />,
-      title: "Preschool Program",
+      icon: <Star className="w-8 h-8 text-green-600" />,
+      title: "Pre-K Age",
       age: "Ages 4-5",
-      description: "Structured learning with focus on pre-reading and math skills.",
+      description:
+        "Engaging daycare with focus on social skills and creative play.",
       features: [
-        "Pre-reading skills",
-        "Basic mathematics",
-        "Science exploration",
-        "Social studies",
-      ]
+        "Supervised group activities",
+        "Indoor/outdoor play",
+        "Meal & snack time",
+        "Quiet time",
+      ],
     },
     {
-      icon: <Brain className="w-12 h-12 text-green-600" />,
-      title: "Kindergarten Prep",
+      icon: <Sun className="w-8 h-8 text-green-600" />,
+      title: "School Age",
       age: "Ages 5-6",
-      description: "Advanced preparation for successful kindergarten transition.",
+      description:
+        "Before & after school care with fun recreational activities.",
       features: [
-        "Reading readiness",
-        "Advanced mathematics",
-        "Critical thinking",
-        "Independence skills",
-      ]
-    }
+        "Homework time supervision",
+        "Free play periods",
+        "Healthy snacks",
+        "Group activities",
+      ],
+    },
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-green-50">
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 left-10 w-32 h-32 bg-red-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob" />
+        <div className="absolute top-40 right-10 w-32 h-32 bg-yellow-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000" />
+        <div className="absolute bottom-20 left-20 w-32 h-32 bg-pink-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000" />
+      </div>
       <section className="py-20">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 pb-8">
           <div className="text-center mb-16">
             <div className="inline-block bg-green-100 px-4 py-2 rounded-full mb-6">
               <span className="text-green-600 font-medium">Our Programs</span>
             </div>
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
-              Age-Appropriate Learning Programs
+              Age-Based Childcare Programs
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Each program is carefully designed to meet the developmental needs of your child,
-              ensuring they reach their full potential in a nurturing environment.
+              We provide loving, attentive care for children of all ages in a
+              safe and nurturing environment. Our focus is on creating a
+              comfortable second home where your child can play, rest, and grow.
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
             {programs.map((program, index) => (
-              <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+              <div
+                key={index}
+                className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition"
+              >
                 <div className="flex items-start gap-6">
                   <div className="bg-green-50 p-4 rounded-2xl">
                     {program.icon}
                   </div>
                   <div>
-                    <h2 className="text-2xl font-bold text-gray-800 mb-2">{program.title}</h2>
-                    <p className="text-green-600 font-medium mb-4">{program.age}</p>
+                    <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                      {program.title}
+                    </h2>
+                    <p className="text-green-600 font-medium mb-4">
+                      {program.age}
+                    </p>
                     <p className="text-gray-600 mb-6">{program.description}</p>
                     <ul className="space-y-3">
                       {program.features.map((feature, idx) => (
@@ -97,35 +123,92 @@ const ProgramsPage = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-green-50">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6 pb-8">
+          <div className="text-center mb-16">
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+              24-Hour Care Schedule
+            </h1>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Open 24/7 to accommodate all work schedules. Our caring staff is
+              here around the clock to provide safe, nurturing care for your
+              child.
+            </p>
+          </div>
+          <div className="grid  lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                A Day at Sunshine Kids
-              </h2>
-              <div className="space-y-6">
-                {[
-                  { time: "7:00 AM - 9:00 AM", activity: "Arrival & Free Play" },
-                  { time: "9:00 AM - 10:30 AM", activity: "Structured Learning" },
-                  { time: "10:30 AM - 12:00 PM", activity: "Outdoor Activities" },
-                  { time: "12:00 PM - 3:00 PM", activity: "Lunch & Rest Time" },
-                  { time: "3:00 PM - 6:00 PM", activity: "Afternoon Activities & Pickup" },
-                ].map((schedule, index) => (
-                  <div key={index} className="flex items-center gap-4">
-                    <Clock className="w-5 h-5 text-green-600 flex-shrink-0" />
-                    <div>
-                      <div className="font-bold text-gray-800">{schedule.time}</div>
-                      <div className="text-gray-600">{schedule.activity}</div>
+              <div className="space-y-8">
+                <div className="bg-white p-6 rounded-xl shadow-md">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Sunrise className="w-6 h-6 text-green-600" />
+                    <h3 className="text-xl font-bold text-gray-800">
+                      Day Shift
+                    </h3>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <Clock className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <div>
+                        <div className="font-bold text-gray-800">
+                          6:00 AM - 2:00 PM
+                        </div>
+                        <div className="text-gray-600">
+                          Morning activities, breakfast, outdoor play
+                        </div>
+                      </div>
                     </div>
                   </div>
-                ))}
+                </div>
+
+                <div className="bg-white p-6 rounded-xl shadow-md">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Sunset className="w-6 h-6 text-green-600" />
+                    <h3 className="text-xl font-bold text-gray-800">
+                      Evening Shift
+                    </h3>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <Clock className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <div>
+                        <div className="font-bold text-gray-800">
+                          2:00 PM - 10:00 PM
+                        </div>
+                        <div className="text-gray-600">
+                          Afternoon activities, dinner, quiet play
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white p-6 rounded-xl shadow-md">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Moon className="w-6 h-6 text-green-600" />
+                    <h3 className="text-xl font-bold text-gray-800">
+                      Night Shift
+                    </h3>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <Clock className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <div>
+                        <div className="font-bold text-gray-800">
+                          10:00 PM - 6:00 AM
+                        </div>
+                        <div className="text-gray-600">
+                          Bedtime routine, peaceful sleep monitoring
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="/img4.jpg" 
-                alt="Daily activities" 
+              <img
+                src="/img4.jpg"
+                alt="Daily activities"
                 className="rounded-2xl shadow-lg"
               />
             </div>
