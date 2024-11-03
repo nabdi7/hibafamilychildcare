@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Star } from "lucide-react";
 import Link from "next/link";
 
@@ -45,8 +46,10 @@ const Hero = () => {
 
           <div className="relative">
             <div className="aspect-square rounded-full bg-white p-4 shadow-xl">
-              <img
+              <Image
                 src="/img8.jpg"
+                width={500}
+                height={400}
                 alt="Children playing"
                 className="w-full h-full object-cover rounded-full"
               />

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Users,
   Award,
@@ -91,8 +92,10 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="relative">
-              <img
+              <Image
                 src="/img3.jpg"
+                width={500}
+                height={400}
                 alt="Children playing"
                 className="rounded-2xl shadow-lg w-full h-full object-cover"
               />

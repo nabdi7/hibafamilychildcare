@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { features } from "./index";
 
@@ -48,8 +49,10 @@ const Features = () => {
               </Link>
             </div>
             <div className="relative">
-              <img
+              <Image
                 src="/img10.jpg"
+                width={500}
+                height={400}
                 alt="Daycare facility"
                 className="w-full h-full object-cover rounded-xl"
               />

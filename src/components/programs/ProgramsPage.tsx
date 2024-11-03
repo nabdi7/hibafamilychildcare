@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Baby,
   Users,
@@ -206,8 +207,10 @@ const ProgramsPage = () => {
               </div>
             </div>
             <div className="relative">
-              <img
+              <Image
                 src="/img9.jpg"
+                width={650}
+                height={400}
                 alt="Daily activities"
                 className="rounded-2xl shadow-lg"
               />

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import { Star, X } from "lucide-react";
 
 interface GalleryImage {
@@ -82,8 +83,10 @@ const Gallery: React.FC = () => {
               className="group relative aspect-square rounded-2xl overflow-hidden bg-white p-2 shadow-lg hover:shadow-xl transition cursor-pointer"
               onClick={() => setSelectedImage(image)}
             >
-              <img
+              <Image
                 src={image.src}
+                width={300}
+                height={300}
                 alt={image.alt}
                 className="w-full h-full object-cover rounded-xl transition-transform group-hover:scale-105"
               />
@@ -108,8 +111,10 @@ const Gallery: React.FC = () => {
               >
                 <X className="w-6 h-6 text-white" />
               </button>
-              <img
+              <Image
                 src={selectedImage.src}
+                width={800}
+                height={600}
                 alt={selectedImage.alt}
                 className="w-full h-auto"
               />
