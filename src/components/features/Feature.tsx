@@ -49,7 +49,7 @@ const Features = () => {
             </div>
             <div className="relative">
               <img
-                src="/img4.jpg"
+                src="/img10.jpg"
                 alt="Daycare facility"
                 className="w-full h-full object-cover rounded-xl"
               />

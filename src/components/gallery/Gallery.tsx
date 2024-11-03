@@ -22,9 +22,9 @@ const Gallery = () => {
       caption: "Outdoor Adventures",
     },
     {
-      src: "/img9.jpg",
-      alt: "Learning activities",
-      caption: "Learning Through Play",
+      src: "/img8.jpg",
+      alt: "Music & Dance",
+      caption: "Music & Movement",
     },
     {
       src: "/img5.jpg",
@@ -42,9 +42,9 @@ const Gallery = () => {
       caption: "Science & Discovery",
     },
     {
-      src: "/img8.jpg",
-      alt: "Music & Dance",
-      caption: "Music & Movement",
+      src: "/img9.jpg",
+      alt: "Learning activities",
+      caption: "Learning Through Play",
     },
     {
       src: "/img10.jpg",

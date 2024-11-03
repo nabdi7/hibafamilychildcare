@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="relative">
             <div className="aspect-square rounded-full bg-white p-4 shadow-xl">
               <img
-                src="/img4.jpg"
+                src="/img8.jpg"
                 alt="Children playing"
                 className="w-full h-full object-cover rounded-full"
               />

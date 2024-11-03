@@ -207,7 +207,7 @@ const ProgramsPage = () => {
             </div>
             <div className="relative">
               <img
-                src="/img4.jpg"
+                src="/img9.jpg"
                 alt="Daily activities"
                 className="rounded-2xl shadow-lg"
               />

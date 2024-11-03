@@ -92,7 +92,7 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <img
-                src="/img4.jpg"
+                src="/img3.jpg"
                 alt="Children playing"
                 className="rounded-2xl shadow-lg w-full h-full object-cover"
               />
