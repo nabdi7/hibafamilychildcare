@@ -334,7 +334,7 @@ const Contact = () => {
           className="w-full h-full"
           src={contactInfo.mapUrl}
           style={{ border: 0 }}
-          allowFullScreen=""
+          // allowFullScreen=""
           loading="lazy"
         ></iframe>
       </section>
