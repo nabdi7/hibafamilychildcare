@@ -25,7 +25,7 @@ const Contact = () => {
   const [
     {
       formSubmitted,
-      contactMessage,
+      // contactMessage,
       user_name,
       user_email,
       user_phone,
