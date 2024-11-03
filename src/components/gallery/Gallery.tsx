@@ -2,10 +2,15 @@
 import React, { useState } from "react";
 import { Star, X } from "lucide-react";
 
-const Gallery = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
+interface GalleryImage {
+  src: string;
+  alt: string;
+}
 
-  const galleryImages = [
+const Gallery: React.FC = () => {
+  const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
+
+  const galleryImages: GalleryImage[] = [
     {
       src: "/img1.jpg",
       alt: "Children playing",
@@ -36,7 +41,7 @@ const Gallery = () => {
     },
     {
       src: "/img9.jpg",
-      alt: "Learning activities",
+      alt: "Music & Dance",
     },
     {
       src: "/img10.jpg",
@@ -108,11 +113,6 @@ const Gallery = () => {
                 alt={selectedImage.alt}
                 className="w-full h-auto"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 p-6">
-                <p className="text-white text-xl font-medium">
-                  {selectedImage.caption}
-                </p>
-              </div>
             </div>
           </div>
         )}
