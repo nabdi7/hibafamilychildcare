@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     telephone: true,
   },
   openGraph: {
-    title: "Hiba Family Childcare | Licensed Family Childcare Center in Seattle WA",
+    title: "Hiba Family Childcare | Licensed Family Childcare in Seattle WA",
     description:
-      "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs in a nurturing home-based environment.",
+      "Licensed family childcare providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs in a nurturing home-based environment.",
     type: "website",
     siteName: "Hiba Family Childcare",
     url: "https://hibafamilychildcare.com",
@@ -50,16 +50,16 @@ export const metadata: Metadata = {
         url: "https://hibafamilychildcare.com/img6.jpg",
         width: 500,
         height: 500,
-        alt: "Hiba Family Childcare - Quality childcare and early education center",
+        alt: "Hiba Family Childcare - Quality childcare and early education",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hiba Family Childcare | Licensed Childcare Center in Seattle WA",
+    title: "Hiba Family Childcare | Licensed Childcare in Seattle WA",
     description: 
-      "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs.",
+      "Licensed family childcare providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs.",
     images: ["https://hibafamilychildcare.com/img6.jpg"],
   },
   icons: {
