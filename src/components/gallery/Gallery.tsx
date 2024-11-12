@@ -24,10 +24,10 @@ const Gallery: React.FC = () => {
       src: "/img3.jpg",
       alt: "Outdoor activities",
     },
-    {
-      src: "/img8.jpg",
-      alt: "Music & Dance",
-    },
+    // {
+    //   src: "/img8.jpg",
+    //   alt: "Music & Dance",
+    // },
     {
       src: "/img5.jpg",
       alt: "Group activities",
@@ -36,18 +36,18 @@ const Gallery: React.FC = () => {
       src: "/img6.jpg",
       alt: "Story time",
     },
-    {
-      src: "/img7.jpg",
-      alt: "Science experiments",
-    },
-    {
-      src: "/img9.jpg",
-      alt: "Music & Dance",
-    },
-    {
-      src: "/img10.jpg",
-      alt: "Music & Dance",
-    },
+    // {
+    //   src: "/img7.jpg",
+    //   alt: "Science experiments",
+    // },
+    // {
+    //   src: "/img9.jpg",
+    //   alt: "Music & Dance",
+    // },
+    // {
+    //   src: "/img10.jpg",
+    //   alt: "Music & Dance",
+    // },
   ];
 
   return (
