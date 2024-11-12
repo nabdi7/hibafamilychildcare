@@ -13,12 +13,12 @@ const AboutPage = () => {
   const stats = [
     {
       icon: <Users className="w-6 h-6 text-green-600" />,
-      value: "300+",
+      value: "200+",
       label: "Happy Children",
     },
     {
       icon: <Award className="w-6 h-6 text-green-600" />,
-      value: "8+",
+      value: "6+",
       label: "Years Experience",
     },
     {
@@ -28,7 +28,7 @@ const AboutPage = () => {
     },
     {
       icon: <BookOpen className="w-6 h-6 text-green-600" />,
-      value: "6",
+      value: "3",
       label: "Expert Staff",
     },
   ];
@@ -93,7 +93,7 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <Image
-                src="/img3.jpg"
+                src="/img2.jpg"
                 width={500}
                 height={400}
                 alt="Children playing"

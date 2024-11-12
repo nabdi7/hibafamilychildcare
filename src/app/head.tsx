@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>Najah Family Childcare | Licensed Family Childcare in Seattle WA</title>
+      <title>Hiba Family Childcare | Licensed Family Childcare in Seattle WA</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta charSet="utf-8" />
       <link rel="apple-touch-icon" sizes="57x57" href="/favicon.ico" />
@@ -12,14 +12,14 @@ export default function Head() {
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.najahfamilychildcare.com" />
-      <meta property="og:title" content="Najah Family Childcare | Licensed Family Childcare in Seattle WA" />
+      <meta property="og:url" content="https://www.hibafamilychildcare.com" />
+      <meta property="og:title" content="Hiba Family Childcare | Licensed Family Childcare in Seattle WA" />
       <meta property="og:description" content="Licensed family childcare center providing quality early childhood education and care for children of all ages. Nurturing home-based learning environment." />
       
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.najahfamilychildcare.com" />
-      <meta property="twitter:title" content="Najah Family Childcare | Licensed Family Childcare in Seattle WA" />
+      <meta property="twitter:url" content="https://www.hibafamilychildcare.com" />
+      <meta property="twitter:title" content="Hiba Family Childcare | Licensed Family Childcare in Seattle WA" />
       <meta property="twitter:description" content="Licensed family childcare center providing quality early childhood education and care for children of all ages. Nurturing home-based learning environment." />
       
       <link rel="icon" href="/favicon.ico" />

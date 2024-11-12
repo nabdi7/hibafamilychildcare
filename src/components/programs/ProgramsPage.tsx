@@ -208,7 +208,7 @@ const ProgramsPage = () => {
             </div>
             <div className="relative">
               <Image
-                src="/img9.jpg"
+                src="/img3.jpg"
                 width={650}
                 height={400}
                 alt="Daily activities"

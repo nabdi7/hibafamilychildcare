@@ -11,7 +11,7 @@ const Footer = () => {
       case "email":
         return `mailto:${text}`;
       case "location":
-        return `https://maps.app.goo.gl/m2LnmWsHqURfBqFQ7`;
+        return `https://maps.app.goo.gl/qDUy3MDSiPztrfyK8`;
       default:
         return "#";
     }

@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: {
-    default: "Najah Family Childcare | Licensed Family Childcare in Seattle WA",
+    default: "Hiba Family Childcare | Licensed Family Childcare in Seattle WA",
     template: "%s | Najah Family Childcare"
   },
   description:
@@ -26,41 +26,41 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? siteConfig.url),
   authors: [
     {
-      name: "Najah Family Childcare",
-      url: "https://najahfamilychildcare.com",
+      name: "Hiba Family Childcare",
+      url: "https://hibafamilychildcare.com",
     }
   ],
-  creator: "Najah Family Childcare",
-  publisher: "Najah Family Childcare",
+  creator: "Hiba Family Childcare",
+  publisher: "Hiba Family Childcare",
   formatDetection: {
     email: true,
     address: true,
     telephone: true,
   },
   openGraph: {
-    title: "Najah Family Childcare | Licensed Family Childcare Center in Seattle WA",
+    title: "Hiba Family Childcare | Licensed Family Childcare Center in Seattle WA",
     description:
       "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs in a nurturing home-based environment.",
     type: "website",
-    siteName: "Najah Family Childcare",
-    url: "https://najahfamilychildcare.com",
+    siteName: "Hiba Family Childcare",
+    url: "https://hibafamilychildcare.com",
     locale: "en_US",
     images: [
       {
-        url: "https://najahfamilychildcare.com/img8.jpg",
+        url: "https://hibafamilychildcare.com/img6.jpg",
         width: 500,
         height: 500,
-        alt: "Najah Family Childcare - Quality childcare and early education center",
+        alt: "Hiba Family Childcare - Quality childcare and early education center",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Najah Family Childcare | Licensed Childcare Center in Seattle WA",
+    title: "Hiba Family Childcare | Licensed Childcare Center in Seattle WA",
     description: 
       "Licensed family childcare center providing quality early childhood education and care for children of all ages. Offering full-time and part-time programs.",
-    images: ["https://najahfamilychildcare.com/img8.jpg"],
+    images: ["https://hibafamilychildcare.com/img6.jpg"],
   },
   icons: {
     icon: "/favicon.ico",

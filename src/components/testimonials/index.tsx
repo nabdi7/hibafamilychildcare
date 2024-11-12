@@ -6,13 +6,13 @@ export interface Testimonial {
   
   export const testimonials: Testimonial[] = [
     {
-      name: "Whitney Buckles",
-      content: "Having a loving village for my son was the most important thing on my list when I moved. I sat and discussed my concerns with Mrs. Fartun. She gave me a shoulder to cry on and a promise to care/protect my son. She delivered that and so much more! The ENTIRE family is amazing and loving! I'm so GRATEFUL we found them. They love and care for my son like he is their own. They are so accommodating and flexible with my changing schedule. My son loves them and they love him! I recommend this facility to anyone looking for a LOVING environment for their child and looking to have a peace of mind while working. Thanks family! We truly APPRECIATE you guys!💚.",
+      name: "Rowoerz",
+      content: "Amazing place, Owner is very kind and welcoming.",
       rating: 5,
     },
     {
-      name: "Kaylee Kahn",
-      content: "My two daughters have attended this daycare since June of 2023 and this is by far the best home childcare they have attended in the 3 years we have lived in Washington. It truly feels like home away from home for my daughters. She has a huge heart and treats my children as her own. If you are looking for a safe, fun, and loving daycare. Najah family childcare is best for your babies!.",
+      name: "Mohamed Abdi",
+      content: "My family 👪",
       rating: 5,
     },
     {

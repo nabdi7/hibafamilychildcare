@@ -28,17 +28,17 @@ export const quickLinks: QuickLink[] = [
 export const contactInfo: ContactInfo[] = [
   {
     icon: <Phone className="w-5 h-5" />,
-    text: "(206) 422-8654",
+    text: "(206) 371-3011",
     type: "phone",
   },
   {
     icon: <Mail className="w-5 h-5" />,
-    text: "khalfaj2000@gmail.com",
+    text: "koosmohamed2@gmail.com",
     type: "email",
   },
   {
     icon: <MapPin className="w-5 h-5" />,
-    text: "8411 8th Ave SW, Seattle WA",
+    text: "6532 32nd Ave SW, Seattle, WA",
     type: "location",
   },
 ];
@@ -49,10 +49,10 @@ export const businessHours = {
 };
 
 export const companyInfo = {
-  name: "Najah Family Childcare",
+  name: "Hiba Family Childcare",
   tagline:
     "Nurturing young minds and creating bright futures through play-based learning and dedicated care.",
-  copyright: "Najah Family Childcare",
+  copyright: "Hiba Family Childcare",
   developer: {
     name: "QD Web Designs",
     url: "https://www.qdwebdesigns.com/",

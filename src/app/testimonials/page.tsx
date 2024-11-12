@@ -2,20 +2,20 @@ import React from "react";
 import TestimonialsPage from "@/components/testimonials/TestimonialsPage";
 
 export const metadata = {
-  title: "Testimonials | Najah Family Childcare",
+  title: "Testimonials | Hiba Family Childcare",
   description:
-    "Read testimonials from parents and families who have experienced Najah Family Childcare's nurturing environment and quality early education in Seattle WA.",
+    "Read testimonials from parents and families who have experienced Hiba Family Childcare's nurturing environment and quality early education in Seattle WA.",
   openGraph: {
-    title: "Testimonials | Najah Family Childcare",
+    title: "Testimonials | Hiba Family Childcare",
     description:
-      "Read testimonials from parents and families who have experienced Najah Family Childcare's nurturing environment and quality early education in Seattle WA.",
+      "Read testimonials from parents and families who have experienced Hiba Family Childcare's nurturing environment and quality early education in Seattle WA.",
     type: "website",
-    url: "https://najahfamilychildcare.com/testimonials",
+    url: "https://hibafamilychildcare.com/testimonials",
   },
   twitter: {
-    title: "Testimonials | Najah Family Childcare",
+    title: "Testimonials | Hiba Family Childcare",
     description:
-      "Read testimonials from parents and families who have experienced Najah Family Childcare's nurturing environment and quality early education in Seattle WA.",
+      "Read testimonials from parents and families who have experienced Hiba Family Childcare's nurturing environment and quality early education in Seattle WA.",
   },
 };
 

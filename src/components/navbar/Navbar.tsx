@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center gap-2">
             <TreePine className="w-8 h-8 text-green-600" strokeWidth={1.5} />
             <Link href="/" className="text-xl font-bold text-green-600">
-              Najah Family Childcare
+              Hiba Family Childcare
             </Link>
           </div>
           <div className="hidden md:flex items-center gap-8">

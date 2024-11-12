@@ -50,7 +50,7 @@ const Features = () => {
             </div>
             <div className="relative">
               <Image
-                src="/img10.jpg"
+                src="/img6.jpg"
                 width={500}
                 height={400}
                 alt="Daycare facility"

@@ -30,21 +30,21 @@ export interface ContactInfo {
 
 export const contactInfo: ContactInfo = {
   address: {
-    street: "8411 8th Ave SW",
+    street: "6532 32nd Ave SW",
     city: "Seattle",
     state: "WA",
-    zip: "98106",
+    zip: "98126",
   },
-  phone: "(206) 422-8654",
-  email: "khalfaj2000@gmail.com",
+  phone: "(206) 371-3011",
+  email: "koosmohamed2@gmail.com",
   hours: {
     text: "We're Open Daily",
     details: "24 Hours",
   },
   social: {
-    facebook: "https://www.facebook.com/najahfamilychildcare",
-    instagram: "https://www.instagram.com/najahfamilychildcare",
-    youtube: "https://www.instagram.com/najahfamilychildcare",
+    facebook: "https://www.facebook.com/hibafamilychildcare",
+    instagram: "https://www.instagram.com/hibafamilychildcare",
+    youtube: "https://www.instagram.com/hibafamilychildcare",
   },
   company: {
     name: "Contact Us",
@@ -58,5 +58,6 @@ export const contactInfo: ContactInfo = {
       "Visit our facility and see firsthand how we nurture young minds in a safe, engaging environment.",
   },
   mapUrl:
-    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10776.185096117453!2d-122.3457709!3d47.5279621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549041c0e35391ab%3A0xe4ea2bb87e3c92a5!2sNajah%20Family%20Childcare!5e0!3m2!1sen!2sus!4v1730525388110!5m2!1sen!2sus",
+    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2693.2175798653197!2d-122.3758739!3d47.5440939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549041688e9c9f69%3A0x9cc33ad2cb2ab7b!2sHiba%20Family%20Home%20Childcare!5e0!3m2!1sen!2sus!4v1731370778891!5m2!1sen!2sus",
 };
+
