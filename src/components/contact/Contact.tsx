@@ -11,8 +11,7 @@ import {
   Instagram,
 } from "lucide-react";
 import { contactInfo } from "./index";
-
-interface ContactFormState {
+ interface ContactFormState {
   formSubmitted: boolean;
   contactMessage: string;
   user_name: string;
